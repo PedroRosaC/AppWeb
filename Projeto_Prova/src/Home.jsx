@@ -1,12 +1,18 @@
+
 export default function Home() {
     return (
         <section>
-            <h1>Bem vindo à Universidade Cauduro</h1>
-            <p>Este projeto demonstra o uso de <strong>Rotas</strong> e
-                <strong>Componentes</strong>.</p>
-            <div className="alert alert-primary">
-                Dica: Clique no menu acima para testar a navegação sem
-                recarregar a página!
+            <div className="father">
+                <div className="firstSon">
+                    <h1>Bem vindo à Universidade Cauduro</h1>
+                    <p>Seja Bem vindo à Universidade Cauduro. Aqui você não só se forma profissionalmente, aqui você se forma como pessoa </p>
+                    <p>Desde 1994 realizando sonhos.</p>
+                    <p>Instituição de Ensino de nível superior reconhecida pelo MEC</p>
+                
+                </div>
+                <div className="secondSon">
+                    <img src="img/alunos.png" className="image" alt="" />
+                </div>
             </div>
         </section>
     );
